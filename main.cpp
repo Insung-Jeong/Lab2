@@ -35,7 +35,7 @@ int main() {
     for (int i = 1; i <= M; i++) {
         count /= i;
     }
-    for (int i = 0; i < count-1; i++) {
+    for (int i = 0; i < count; i++) {
         for (auto& j : vec) {
             cout << j << " ";
         }
